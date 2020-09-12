@@ -28,6 +28,9 @@ a {
 a:hover {
     color: #e33333
 }
+button,input {
+    outline: none;
+}
 /* 清除浮动 */
 .clearfix:after {
     visibility: hidden;
