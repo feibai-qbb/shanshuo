@@ -1,0 +1,41 @@
+/* 清除边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 斜体不倾斜 */
+em, i {
+    font-style: normal;
+}
+/* 去了列表前的点 */
+li {
+    list-style: none;
+}
+/* 去图片框 */
+img {
+    border: 0;
+    vertical-align: middle;
+}
+/* button 变小手 */
+button {
+    cursor: pointer;
+}
+/* 取消链接的下划线 */
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: #e33333
+}
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: "";
+    height: 0;
+}
+.clearfix {
+    *zoom: 1;
+}
