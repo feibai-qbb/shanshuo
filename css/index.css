@@ -1,0 +1,98 @@
+.main {
+    width: 980px;
+    height: 216px;
+    margin-left: 219px;
+    /* background-color: #888; */
+    margin-top: 10px;
+}
+.facus {
+    position: relative;
+    height: 216px;
+    width: 720px;
+    background-color: #555555;
+}
+.newflash {
+    width: 250px;
+    height: 216px;
+    /* background-color: #000; */
+}
+.facus .left_1,
+.facus .right_1 {
+    position: relative;
+    float: left;
+    width: 360px;
+    height: 216px;
+}
+.facus .left_1 img,
+.facus .right_1 img {
+    width: 360px;
+    height: 216px;
+}
+.right_1 .arrow-ll,
+.right_1 .arrow-rr,
+.left_1 .arrow-l,
+.left_1 .arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+.right_1 .arrow-rr,
+.left_1 .arrow-r {
+    right: 0;
+    border-radius: 20px 0 0 20px;
+}
+.cirle-r,
+.cirle-l {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+}
+.cirle-r li,
+.cirle-l li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /* background-color: #fff; */
+    border: 1px solid #fff;
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+}
+.new-hd {
+    padding: 0 20px;
+    height: 32px;
+    border: 1px solid #555555;
+    font-size: 14px;
+    text-align: left;
+    line-height: 32px;
+}
+.new-hd a {
+    float: right;
+    font-size: 12px;
+}
+.new-bd {
+    height: 184px;
+    padding: 10px 20px;
+}
+.new-bd li {
+    padding-bottom: 10px;
+}
+.recomn {
+    height: 500px;
+    margin-top: 10px;
+    background-color: #888;
+}
+.recomn img {
+    height: 500px;
+    width: 1200px;
+}
